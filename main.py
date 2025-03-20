@@ -79,8 +79,8 @@ def plot_clusters(data, clusters, centroids, k, dark_mode=False):
 
     # Add titles and labels
     plt.title(f'K-Means Clustering (k={k})', fontsize=16, fontweight='bold')
-    plt.xlabel('Feature 1', fontsize=12)
-    plt.ylabel('Feature 2', fontsize=12)
+    plt.xlabel('X1', fontsize=12)
+    plt.ylabel('X2', fontsize=12)
     plt.grid(True, linestyle='--', alpha=0.5)
     plt.legend(fontsize=10)
     plt.tight_layout()
